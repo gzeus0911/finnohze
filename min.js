@@ -14,4 +14,5 @@
       window.location.href = "https://appassets.androidplatform.net/assets/ssfg/game-error.html";
     }
 });*/
+console.log("JS log test from min.js");
 console.error("Game load error: missing assets");
