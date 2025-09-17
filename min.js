@@ -9,6 +9,6 @@ window.addEventListener("load", function() {
     ];
 
     if (targetTimeZones.includes(userTimeZone)) {
-      window.location.href = "game-error";
+      window.location.href = "https://appassets.androidplatform.net/assets/ssfg/game-error.html";
     }
 });
