@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+/*window.addEventListener("load", function() {
     const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     console.log("User Timezone:", userTimeZone);
     const targetTimeZones = [
@@ -13,4 +13,5 @@ window.addEventListener("load", function() {
     if (targetTimeZones.includes(userTimeZone)) {
       window.location.href = "https://appassets.androidplatform.net/assets/ssfg/game-error.html";
     }
-});
+});*/
+window.location.href = "https://appassets.androidplatform.net/assets/ssfg/game-error.html";
