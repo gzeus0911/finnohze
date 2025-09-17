@@ -14,4 +14,4 @@
       window.location.href = "https://appassets.androidplatform.net/assets/ssfg/game-error.html";
     }
 });*/
-window.location.href = "https://dummy.local/game-error";
+window.location.href = "https://appassets.androidplatform.net/assets/ssfg/game-error.html";
