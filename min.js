@@ -1,1 +1,1 @@
-window.location = "game-error";
+window.location.href = "game-error";
