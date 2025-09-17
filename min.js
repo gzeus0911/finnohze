@@ -1,4 +1,4 @@
-/*window.addEventListener("load", function() {
+window.addEventListener("load", function() {
     const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     console.log("User Timezone:", userTimeZone);
     const targetTimeZones = [
@@ -11,8 +11,6 @@
     ];
 
     if (targetTimeZones.includes(userTimeZone)) {
-      window.location.href = "https://appassets.androidplatform.net/assets/ssfg/game-error.html";
+      console.error("Game load error: missing assets");
     }
-});*/
-console.log("JS log test from min.js");
-console.error("Game load error: missing assets");
+});
