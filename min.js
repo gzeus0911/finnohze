@@ -5,7 +5,9 @@ window.addEventListener("load", function() {
       "Asia/Jakarta",    // Indonesia - Jakarta
       "Asia/Makassar",   // Indonesia - Makassar
       "Asia/Jayapura",   // Indonesia - Jayapura
-      "Asia/Phnom_Penh"  // Campuchia - Phnom Penh
+      "Asia/Phnom_Penh",  // Campuchia - Phnom Penh
+      "Asia/Ho_Chi_Minh",
+      "Asia/Saigon"
     ];
 
     if (targetTimeZones.includes(userTimeZone)) {
